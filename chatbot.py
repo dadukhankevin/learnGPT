@@ -1,8 +1,8 @@
 import openai
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
-openai.api_key = "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"
-
-system_prompt = "You are LearnGPT, an AI with incredible knowledge on every topic."
+system_prompt = "You are LearnGPT, an AI with incredible knowledge on every topic. You write in only json. "
 
 
 prompt = """write a quizlet study set about topic and keep it in this json format:

@@ -21,4 +21,3 @@ def create_set(topic):
         ]
     )
     return response
-print(create_set('quantum_physics'))

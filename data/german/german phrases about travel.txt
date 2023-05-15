@@ -1,0 +1,42 @@
+{
+  "item1": {
+    "term": "Entschuldigen Sie, wo ist der Bahnhof?",
+    "definition": "Excuse me, where is the train station?"
+  },
+  "item2": {
+    "term": "Können Sie mir bitte helfen?",
+    "definition": "Can you please help me?"
+  },
+  "item3": {
+    "term": "Ich suche ein Hotel.",
+    "definition": "I am looking for a hotel."
+  },
+  "item4": {
+    "term": "Wie viel kostet das?",
+    "definition": "How much does that cost?"
+  },
+  "item5": {
+    "term": "Ich hätte gerne...",
+    "definition": "I would like..."
+  },
+  "item6": {
+    "term": "Wo kann ich eine Fahrkarte kaufen?",
+    "definition": "Where can I buy a ticket?"
+  },
+  "item7": {
+    "term": "Gibt es hier in der Nähe eine Bank?",
+    "definition": "Is there a bank nearby?"
+  },
+  "item8": {
+    "term": "Ich verstehe nicht.",
+    "definition": "I don't understand."
+  },
+  "item9": {
+    "term": "Ich spreche kein Deutsch.",
+    "definition": "I don't speak German."
+  },
+  "item10": {
+    "term": "Könnten Sie das bitte wiederholen?",
+    "definition": "Could you please repeat that?"
+  }
+}

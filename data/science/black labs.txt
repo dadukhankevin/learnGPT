@@ -1,0 +1,34 @@
+{
+  "item1": {
+    "term": "Black Labrador Retriever",
+    "definition": "A breed of dog known for its black fur and loyalty"
+  },
+  "item2": {
+    "term": "Temperament",
+    "definition": "Friendly, loyal, and intelligent"
+  },
+  "item3": {
+    "term": "Size",
+    "definition": "Medium to large with an average weight of 55-75 pounds"
+  },
+  "item4": {
+    "term": "Exercise Needs",
+    "definition": "High energy dogs who need plenty of exercise and mental stimulation"
+  },
+  "item5": {
+    "term": "Training",
+    "definition": "Eager to please and responsive to positive reinforcement training methods"
+  },
+  "item6": {
+    "term": "Grooming",
+    "definition": "Minimal shedding but still require regular brushing and grooming"
+  },
+  "item7": {
+    "term": "Common Health Issues",
+    "definition": "Hip and elbow dysplasia, eye problems, and skin allergies"
+  },
+  "item8": {
+    "term": "Famous Black Labs",
+    "definition": "Bo Obama (former US President Obama's dog), Marley (from the book and movie 'Marley & Me')"
+  }
+}

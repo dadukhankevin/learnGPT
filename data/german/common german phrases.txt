@@ -1,0 +1,51 @@
+{
+  "Guten Morgen": {
+    "term": "Guten Morgen",
+    "definition": "Good morning"
+  },
+
+  "Wie geht es Ihnen?": {
+    "term": "Wie geht es Ihnen?",
+    "definition": "How are you?"
+  },
+
+  "Ich heiße...": {
+    "term": "Ich heiße...",
+    "definition": "My name is..."
+  },
+
+  "Es tut mir leid": {
+    "term": "Es tut mir leid",
+    "definition": "I'm sorry"
+  },
+
+  "Danke schön": {
+    "term": "Danke schön",
+    "definition": "Thank you very much"
+  },
+
+  "Ja": {
+    "term": "Ja",
+    "definition": "Yes"
+  },
+
+  "Nein": {
+    "term": "Nein",
+    "definition": "No"
+  },
+
+  "Auf Wiedersehen": {
+    "term": "Auf Wiedersehen",
+    "definition": "Goodbye"
+  },
+
+  "Ich komme aus...": {
+    "term": "Ich komme aus...",
+    "definition": "I come from..."
+  },
+
+  "Wie spät ist es?": {
+    "term": "Wie spät ist es?",
+    "definition": "What time is it?"
+  }
+}

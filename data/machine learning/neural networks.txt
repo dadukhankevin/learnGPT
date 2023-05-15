@@ -1,0 +1,42 @@
+{
+  "item1": {
+    "term": "Neural Network",
+    "definition": "A computer system modeled on the human brain and nervous system that processes information using a network of interconnected nodes."
+  },
+  "item2": {
+    "term": "Artificial Neural Network (ANN)",
+    "definition": "A type of neural network that is designed to model the way the human brain processes information."
+  },
+  "item3": {
+    "term": "Input Layer",
+    "definition": "The first layer of a neural network, which receives input from outside the network."
+  },
+  "item4": {
+    "term": "Hidden Layer",
+    "definition": "A layer of a neural network that is not the input or output layer, used to process and transform input data."
+  },
+  "item5": {
+    "term": "Output Layer",
+    "definition": "The final layer of a neural network, which produces the network's output based on the input data and the transformations that occurred in the hidden layers."
+  },
+  "item6": {
+    "term": "Activation Function",
+    "definition": "A function that is applied to the output of a node in a neural network, used to produce the node's final output value."
+  },
+  "item7": {
+    "term": "Backpropagation",
+    "definition": "A training algorithm for neural networks that adjusts the weights of the network to minimize the difference between the network's output and the desired output."
+  },
+  "item8": {
+    "term": "Convolutional Neural Network (CNN)",
+    "definition": "A type of neural network that is commonly used for image and video recognition tasks, based on the use of convolutional layers, which are designed to identify local patterns and features in the input data."
+  },
+  "item9": {
+    "term": "Recurrent Neural Network (RNN)",
+    "definition": "A type of neural network that is specifically designed to process sequential data, such as time series or text data."
+  },
+  "item10": {
+    "term": "Long Short-Term Memory (LSTM)",
+    "definition": "A type of recurrent neural network that is designed to address the problem of vanishing gradients by introducing a special memory cell that can retain information over longer periods of time."
+  }
+}

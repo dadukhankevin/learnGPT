@@ -1,6 +1,6 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script lang="ts">
-	import { InputChip, ProgressBar, Autocomplete} from '@skeletonlabs/skeleton';
+	import { InputChip, ProgressBar, ProgressRadial} from '@skeletonlabs/skeleton';
 	import { onMount } from 'svelte';
 
 	let list: any[] = [];
@@ -27,7 +27,19 @@
 		match = true;
 		fetch("http://127.0.0.1:5000/add?name="+category.value).then(()=>{fetchData()})
 	}
+
+	function generate(){
+		let category = document.getElementById("category") as HTMLInputElement;
+		let loader = document.getElementById("load") as HTMLElement;
+		loader.style.display = "flex";
+		fetch("http://127.0.0.1:5000/generate?name="+category.value+"&values="+list).then(()=>{
+			location.href = "/view?section="+category.value;
+		})
+	}
 </script>
+<div class="loading-container" id="load">
+	<ProgressRadial value={undefined} />
+</div>
 <div class="h-full grid grid-rows-[auto_1fr_auto] gap-1">
 
 	<div class="bg-surface-500/30 p-4"></div>
@@ -52,7 +64,7 @@
 		<button on:click="{new_category}" type="button" class="btn varient-filled">Create New</button>
 		{/if}
 		{#if match === true}
-		<button type="button" class="btn variant-filled">Generate Learning Set</button>
+		<button type="button" class="btn variant-filled" on:click={generate}>Generate Learning Set</button>
 		{/if}
 
 		{/if}
@@ -67,7 +79,7 @@
 			  {#each items as item}
 				<!--{#each Object.entries(item) as [name, data]} -->
 				  <div class="grid-item rounded-md p-4 text-center block-card card-hover card">
-					<h4>{item}</h4>
+					<a href="/view?section={item}"><h4>{item}</h4></a>
 				  </div>
 				{/each}
 			 <!-- {/each} -->

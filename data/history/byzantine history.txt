@@ -1,0 +1,42 @@
+{
+  "item1": {
+    "term": "Byzantine Empire",
+    "definition": "Eastern Roman Empire that existed from 330 to 1453 CE."
+  },
+  "item2": {
+    "term": "Constantinople",
+    "definition": "Capital city of the Byzantine Empire, located in modern-day Istanbul, Turkey."
+  },
+  "item3": {
+    "term": "Justinian I",
+    "definition": "Byzantine emperor who ruled from 527 to 565 CE, known for his legal reforms and building projects."
+  },
+  "item4": {
+    "term": "Hagia Sophia",
+    "definition": "A large and highly complex Byzantine-style monument in Istanbul that served as a church, mosque, and museum over the course of its history."
+  },
+  "item5": {
+    "term": "Theodora",
+    "definition": "Empress of the Byzantine Empire, wife of Justinian I, and known for her political and social influence."
+  },
+  "item6": {
+    "term": "Iconoclasm",
+    "definition": "The deliberate destruction of religious images, especially within the Byzantine Empire in the 8th and 9th centuries."
+  },
+  "item7": {
+    "term": "Great Schism",
+    "definition": "The official split between the Roman Catholic Church and the Eastern Orthodox Church in 1054 CE."
+  },
+  "item8": {
+    "term": "Byzantine art",
+    "definition": "Art form that refers to the artwork produced in the Byzantine Empire from the 4th century onwards, including mosaics, icons, and frescoes."
+  },
+  "item9": {
+    "term": "Leo III",
+    "definition": "Byzantine Emperor who prohibited the use of religious images, leading to widespread protests and the eventual development of Icons in Eastern Orthodox Christianity."
+  },
+  "item10": {
+    "term": "Fall of Constantinople",
+    "definition": "Capture of Constantinople by the Ottoman Empire on May 29, 1453, resulting in the collapse of the Byzantine Empire."
+  }
+}

@@ -46,6 +46,7 @@ def generate():
     category = request.args.get("name")
     values = request.args.get("values").split(",")
     for i in values:
+        print(i)
         set = chatbot.create_set(i)
         print(set['choices'][0]['message']['content'])
         db.create_new_set(category, i, set['choices'][0]['message']['content'])

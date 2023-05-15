@@ -1,7 +1,5 @@
 import openai
-import os
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
+openai.api_key = # your api key here
 system_prompt = "You are LearnGPT, an AI with incredible knowledge on every topic. You write in only json. "
 
 

@@ -88,7 +88,7 @@
     <div class="pader">
         <Stepper on:step={onStep}>
             {#each keys as key}
-              <Step stepTerm='a' locked={index < keys.length - 1 && locker}>
+              <Step locked={index < keys.length - 1 && locker}>
                 <svelte:fragment slot="header">{data[key].term}</svelte:fragment>
                 <div class="center">
                   <div hidden class="answer">

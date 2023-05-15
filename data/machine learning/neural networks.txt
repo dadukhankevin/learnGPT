@@ -1,42 +1,42 @@
 {
-  "item1": {
-    "term": "Neural Network",
-    "definition": "A computer system modeled on the human brain and nervous system that processes information using a network of interconnected nodes."
-  },
-  "item2": {
-    "term": "Artificial Neural Network (ANN)",
-    "definition": "A type of neural network that is designed to model the way the human brain processes information."
-  },
-  "item3": {
-    "term": "Input Layer",
-    "definition": "The first layer of a neural network, which receives input from outside the network."
-  },
-  "item4": {
-    "term": "Hidden Layer",
-    "definition": "A layer of a neural network that is not the input or output layer, used to process and transform input data."
-  },
-  "item5": {
-    "term": "Output Layer",
-    "definition": "The final layer of a neural network, which produces the network's output based on the input data and the transformations that occurred in the hidden layers."
-  },
-  "item6": {
-    "term": "Activation Function",
-    "definition": "A function that is applied to the output of a node in a neural network, used to produce the node's final output value."
-  },
-  "item7": {
-    "term": "Backpropagation",
-    "definition": "A training algorithm for neural networks that adjusts the weights of the network to minimize the difference between the network's output and the desired output."
-  },
-  "item8": {
-    "term": "Convolutional Neural Network (CNN)",
-    "definition": "A type of neural network that is commonly used for image and video recognition tasks, based on the use of convolutional layers, which are designed to identify local patterns and features in the input data."
-  },
-  "item9": {
-    "term": "Recurrent Neural Network (RNN)",
-    "definition": "A type of neural network that is specifically designed to process sequential data, such as time series or text data."
-  },
-  "item10": {
-    "term": "Long Short-Term Memory (LSTM)",
-    "definition": "A type of recurrent neural network that is designed to address the problem of vanishing gradients by introducing a special memory cell that can retain information over longer periods of time."
-  }
+    "item1": {
+        "term": "Neural Network",
+        "definition": "A computing system that is inspired by the structure, processing, and learning abilities of the human brain."
+    },
+    "item2": {
+        "term": "Artificial Neural Network (ANN)",
+        "definition": "A type of neural network that is designed to recognize patterns, learn from data, and make predictions."
+    },
+    "item3": {
+        "term": "Input Layer",
+        "definition": "The layer in a neural network that receives inputs from the environment or previous layers."
+    },
+    "item4": {
+        "term": "Hidden Layer",
+        "definition": "A layer in a neural network that is neither an input nor an output layer and performs computations to transform the input into the desired output."
+    },
+    "item5": {
+        "term": "Output Layer",
+        "definition": "The final layer in a neural network that produces outputs based on the transformed inputs from the previous layers."
+    },
+    "item6": {
+        "term": "Backpropagation",
+        "definition": "A training algorithm used in neural networks to adjust the weights and biases of the connections between neurons based on the error between the predicted and actual outputs."
+    },
+    "item7": {
+        "term": "Activation Function",
+        "definition": "A function that is applied to the output of a neuron to determine if it 'fires' or not, based on a threshold."
+    },
+    "item8": {
+        "term": "Gradient Descent",
+        "definition": "An optimization algorithm used in neural networks to find the minimum of a loss function by iteratively updating the weights and biases of the connections between neurons."
+    },
+    "item9": {
+        "term": "Convolutional Neural Network (CNN)",
+        "definition": "A type of neural network that is designed to process data with a grid-like topology, such as images or speech waves."
+    },
+    "item10": {
+        "term": "Recurrent Neural Network (RNN)",
+        "definition": "A type of neural network that is designed to model sequential data, such as text or time series data."
+    }
 }
